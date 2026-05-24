@@ -39,11 +39,22 @@ Evaluation: Accuracy · F1 macro · Confusion matrix
 
 | Classifier     | Val Accuracy | Test Accuracy | Test F1 (macro) |
 |----------------|:------------:|:-------------:|:---------------:|
-| SVM (RBF)      | —            | —             | —               |
-| Random Forest  | —            | —             | —               |
-| XGBoost        | —            | —             | —               |
+| SVM (RBF)      | 0.546        | 0.558         | 0.561           |
+| Random Forest  | 0.674        | 0.676         | 0.676           |
+| XGBoost        | 0.640        | 0.641         | 0.641           |
 
-*Results will be filled after running on the full dataset.*
+<img width="1350" height="750" alt="classifier_comparison" src="https://github.com/user-attachments/assets/e04e067e-33ce-428b-9b63-e151d04eaf95" />
+
+### Confusion Matrix
+
+SVM
+<img width="1800" height="1500" alt="SVM_RBF_cm" src="https://github.com/user-attachments/assets/6bfdfb18-bb32-4db6-a0ec-cb1481eeb1f8" />
+
+Random Forest
+<img width="1800" height="1500" alt="Random_Forest_cm" src="https://github.com/user-attachments/assets/ee884ff7-f968-4151-8827-b42ba9c5c9d7" />
+
+XGBoost
+<img width="1800" height="1500" alt="XGBoost_cm" src="https://github.com/user-attachments/assets/26fbd6bf-77ba-440f-94b1-d41a1d87a331" />
 
 ## Project Structure
 
